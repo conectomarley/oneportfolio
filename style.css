@@ -1,17 +1,46 @@
+:root {
+  --background-color: white;
+  --font-family: "roboto", sans-serif;
+  --box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  --primary-color: grey;
+}
+
+body {
+  background-color: grey;
+}
+
 div.index-homepage {
-  background-color: white;
-  font-family: "roboto", sans-serif;
-  background: #ddeedf;
+  background-color: var(--background-color);
+  font-family: var(--font-family);
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
-    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  box-shadow: var(--box-shadow);
   border-radius: 16px;
   padding: 30px;
 }
+
 div.index-homepage h1 {
   margin: 0 0 5px;
-  font-family: "roboto", sans-serif;
-  color: #57385c;
+  font-family: var(--font-family);
+  color: var(--primary-color);
   font-size: 24px;
+}
+
+div.about-contact {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: var(--box-shadow);
+  border-radius: 16px;
+  padding: 30px;
+}
+
+div.about-contact h1,
+h2 {
+  margin: 0 0 5px;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-size: 16px;
 }
