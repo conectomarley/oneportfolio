@@ -67,6 +67,12 @@ div.about-contact {
   text-align: center;
 }
 
+div.about-contact h1,
+div.about-contact h2,
+div.about-contact h3 {
+  font-family: "Lora", serif;
+}
+
 #backhome {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
