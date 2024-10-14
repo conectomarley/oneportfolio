@@ -1,6 +1,6 @@
 :root {
   --background-color: white;
-  --font-family: "Montserrat", sans-serif;
+  --font-family: "Times", sans-serif;
   --box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   --primary-color: #263849;
@@ -60,10 +60,10 @@ a {
   display: inline-block;
 }
 
-#backhome {
+.backhome {
   display: block;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   color: #ff5722;
   background-color: #f0f0f0;
   padding: 10px 20px;
@@ -72,8 +72,8 @@ a {
   transition: background-color 0.3s ease;
 }
 
-#backhome:hover {
-  background-color: #ff5722;
+.backhome:hover {
+  background-color: #ff894c;
   color: white;
 }
 
@@ -84,46 +84,63 @@ div.about-intro {
 }
 
 div.about-intro h1 {
-  font-size: 38px;
+  font-size: 96px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: rgb(0, 0, 0);
 }
 
 div.about-intro h2 {
   font-size: 24px;
+  font-weight: 600;
   color: #3c4245;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 div.about-contact {
   font-family: var(--font-family);
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
   margin: 30px auto;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 div.about-contact {
   flex: 1;
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
   color: #000;
   font-family: var(--font-family);
   padding: 20px;
   text-align: justify;
   border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 div.contact {
+  font-family: var(--font-family);
+  font-size: 38px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 div.contact a {
-  padding: 10px 15px;
-  background-color: #f0f0f0;
+  background-color: transparent;
+  display: inline-block;
+  margin-top: 0;
+  padding: 8px 15px;
   border-radius: 5px;
   color: black;
   text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 div.contact a:hover {
   background-color: #e64a19;
+}
+
+div.contact h3 {
+  margin-bottom: 5px;
 }
