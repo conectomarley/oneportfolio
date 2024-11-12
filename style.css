@@ -144,3 +144,20 @@ div.contact a:hover {
 div.contact h3 {
   margin-bottom: 0px;
 }
+
+@media (max-width: 576px) {
+  .button-container a {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2rem;
+  }
+
+  .about-contact, .contact {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
